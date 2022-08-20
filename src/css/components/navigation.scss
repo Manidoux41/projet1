@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .navicon{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        li{
+            margin: 10px;
+        }
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        li{
+            margin: 24px;
+        }
+        a {
+            color: #fff;
+            background-color: #0D2C99;
+            padding: 13px 43px;
+            border: none;
+            border-radius: 55px;
+        }
+    }
+}

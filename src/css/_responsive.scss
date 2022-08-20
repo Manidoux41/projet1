@@ -1,0 +1,55 @@
+@media screen and (max-width: 1350px) {
+    body{
+        nav{
+            a{
+                padding: 4px 8px;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    body{
+        
+        nav{
+            li{
+                margin: 5px;
+                a{
+                    padding: 2px 4px;
+                    font-size: 0.8rem;
+                }
+            }
+            
+        }
+        
+    }
+}
+@media screen and (max-width: 750px) {
+    body{
+        header{
+            min-height: 600px;
+            
+            nav{
+                justify-content: center;
+                .navicon{
+                    visibility: hidden;
+                }
+                ul{
+                    flex-direction: column;
+                    justify-content: center;
+                    li {
+                        margin: 25px;
+                        a{
+                            padding: 10px 20px;
+                            font-size: 1rem;
+                        }
+                    }
+                    
+                }           
+                
+            }
+        }
+        
+        
+    }
+}

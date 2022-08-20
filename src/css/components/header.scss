@@ -1,10 +1,11 @@
 @use './navigation.scss';
 
 header {
+    height: auto;
     background: linear-gradient(88.94deg, #0D2C99 0.52%, rgba(13, 44, 153, 0) 100%);
     padding: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
 }

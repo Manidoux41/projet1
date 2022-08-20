@@ -1,0 +1,10 @@
+@use './navigation.scss';
+
+header {
+    background: linear-gradient(88.94deg, #0D2C99 0.52%, rgba(13, 44, 153, 0) 100%);
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
